@@ -15,11 +15,11 @@ public class TestDemo {//TestDemo class
 		}
 		else if(val>0){//if input value is greater than zero
 			//print statement with ascii character of the integer
-			System.out.println("You have Entered Positive Value");
+			System.out.println("You have Entered Positive Value "+val);
 		}
 		else if(val<0){
 			//print statement with ascii character of the integer
-			System.out.println("You have Entered Negative Value");
+			System.out.println("You have Entered Negative Value "+val);
 		}
 		System.out.println("its Ascii character is "+ch);
 	}
